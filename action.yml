@@ -1,0 +1,20 @@
+name: StepSecurity Maintained Read File Action
+author: step-security
+description: 'Reads a file from the workspace and exposes its contents as a step output'
+branding:
+  icon: 'book-open'
+  color: blue
+inputs:
+  path:
+    description: 'Path to the file to read, relative to the workspace root'
+    required: true
+  trim:
+    description: 'Trim leading and trailing whitespace from the file contents'
+    required: false
+    default: false
+outputs:
+  content:
+    description: 'The full contents of the file'
+runs:
+  using: 'node24'
+  main: 'dist/index.js'
