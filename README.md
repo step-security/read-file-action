@@ -2,13 +2,13 @@
 
 # read-file-action
 
-A GitHub Action that reads a file from the workspace and exposes its contents as a step output.
+A GitHub Action that reads a file and exposes its contents as a step output.
 
 ## Inputs
 
 | Name   | Required | Default | Description                                                   |
 |--------|----------|---------|---------------------------------------------------------------|
-| `path` | Yes      | —       | Path to the file to read, relative to the workspace root      |
+| `path` | Yes      | —       | Path to the file to read                                      |
 | `trim` | No       | `false` | Trim leading and trailing whitespace from the file contents   |
 
 ## Outputs

@@ -9,7 +9,8 @@
     "build": "ncc build index.ts --out dist"
   },
   "dependencies": {
-    "@actions/core": "^1.11.1"
+    "@actions/core": "^1.11.1",
+    "axios": "^1.17.0"
   },
   "devDependencies": {
     "@types/node": "^25.9.3",

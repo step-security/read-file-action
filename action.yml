@@ -1,12 +1,12 @@
 name: StepSecurity Maintained Read File Action
 author: step-security
-description: 'Reads a file from the workspace and exposes its contents as a step output'
+description: 'Reads a file and exposes its contents as a step output'
 branding:
   icon: 'book-open'
   color: blue
 inputs:
   path:
-    description: 'Path to the file to read, relative to the workspace root'
+    description: 'Path to the file to read'
     required: true
   trim:
     description: 'Trim leading and trailing whitespace from the file contents'
