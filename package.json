@@ -5,12 +5,12 @@
   "license": "MIT",
   "description": "Read file contents and expose them as a step output",
   "author": "step-security",
-  "repository": "step-security/read-file-action",
+  "repository": "git+https://github.com/step-security/read-file-action.git",
   "scripts": {
     "build": "ncc build index.ts --out dist"
   },
   "dependencies": {
-    "@actions/core": "^1.11.1",
+    "@actions/core": "^2.0.0",
     "axios": "^1.17.0"
   },
   "devDependencies": {
